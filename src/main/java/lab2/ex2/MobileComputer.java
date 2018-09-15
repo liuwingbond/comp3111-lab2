@@ -15,7 +15,7 @@ public class MobileComputer extends Computer implements Chargeable {
 			System.out.println("Running out of battery");
 	}
 	public void charge() {
-		System.out.println("Charge this mobile computer");
+		//System.out.println("Charge this mobile computer");
 		if (battery < 10)
 			battery++;
 	}
